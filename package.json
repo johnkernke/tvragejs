@@ -1,0 +1,32 @@
+{
+    "name": "tvragejs",
+    "version": "0.1.0",
+    "description": "A simple TvRage API.",
+    "keywords": ["tvrage", "tv", "api", "television", "tvshow", "show", "tvseries", "series", "episode"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/johnkernke/tvragejs.git"
+    },
+    "bugs": {
+        "url": "http://github.com/johnkernke/tvragejs/issues"
+    },
+    "author": {
+        "name": "John Kernke",
+        "email": "johnkernke@users.noreply.github.com"
+    },
+    "licenses": [ {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licences/MIT"
+    } ],
+    "main": "./lib/tvragejs",
+    "dependencies": {
+        "xml2js": "~0.4.2",
+        "request": "~2.34.0"
+    },
+    "devDependencies": {
+        "mocha": "~1.18.2"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/mocha"
+    }
+}
